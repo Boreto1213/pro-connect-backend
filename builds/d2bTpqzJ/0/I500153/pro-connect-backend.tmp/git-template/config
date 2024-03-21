@@ -1,0 +1,6 @@
+[init]
+	defaultBranch = none
+[fetch]
+	recurseSubmodules = false
+[http "https://git.fhict.nl"]
+	sslCAInfo = /Users/borisdamianov/Code/fontys/java/pro-connect-backend/builds/d2bTpqzJ/0/I500153/pro-connect-backend.tmp/CI_SERVER_TLS_CA_FILE

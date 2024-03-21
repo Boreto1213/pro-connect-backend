@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+  - code-analysis
+
+build:
+  stage: build
+  script:
+    - ./gradlew assemble
+
+test:
+  stage: test
+  script:
+    - ./gradlew test
+
+code-analysis:
+  stage: code-analysis
+  script:
+    - ./gradlew test jacocoTestReport sonar

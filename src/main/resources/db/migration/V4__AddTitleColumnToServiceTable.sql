@@ -1,0 +1,2 @@
+ALTER TABLE services
+    ADD COLUMN title VARCHAR(100) NOT NULL;
